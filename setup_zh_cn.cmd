@@ -1,5 +1,6 @@
+chcp 65001
+
 @echo off
-@chcp 65001
 @cd /d "%~dp0"
 @set "ERRORLEVEL="
 @CMD /C EXIT 0
@@ -53,7 +54,7 @@
 @echo.
 @net stop Audiosrv /y
 @echo.
-@echo Done.
+@echo 完成.
 @echo.
 )
 @call modules\uadserviceremove.cmd RtkAudUService64.exe
